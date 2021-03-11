@@ -1,0 +1,10 @@
+body {
+    font-family: monospace, "Courier New", Consolas;
+}
+.heading{
+    text-align: center;
+    font-weight: normal;
+}
+.btn {
+    min-width: 250px;
+}

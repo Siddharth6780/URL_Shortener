@@ -7,7 +7,7 @@ app.use(express.urlencoded({extended:false}));
 app.set('view engine','ejs');
 
 
-mongoose.connect('mongodb://localhost/urlShortener',{
+mongoose.connect('mongodb://admin-siddharth:qwerty_siddharth@cluster0-shard-00-00.avmv2.mongodb.net:27017,cluster0-shard-00-01.avmv2.mongodb.net:27017,cluster0-shard-00-02.avmv2.mongodb.net:27017/urlShortener?ssl=true&replicaSet=atlas-ou6j37-shard-0&authSource=admin&retryWrites=true&w=majority',{
     useNewUrlParser:true , useUnifiedTopology:true
 })
 
